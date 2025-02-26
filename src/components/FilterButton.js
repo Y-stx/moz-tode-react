@@ -1,4 +1,5 @@
 import React from "react";
+
 function FilterButton(props) {
   return (
     <button type="button" className="btn toggle-btn" aria-pressed="true">
@@ -8,4 +9,5 @@ function FilterButton(props) {
     </button>
   );
 }
+
 export default FilterButton;
